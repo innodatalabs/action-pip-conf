@@ -14,5 +14,5 @@ const PIP_CONFIG_LOCATION = (() => {
 
 
 (async () => {
-    await fs.unlink(path.dirname(PIP_CONFIG_LOCATION));
+    await fs.unlink(PIP_CONFIG_LOCATION);
 })().catch(error => core.setFailed(error.message));
