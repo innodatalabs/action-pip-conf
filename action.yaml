@@ -1,0 +1,10 @@
+name: 'Set pip.conf'
+description: 'Set custon pip.conf file'
+inputs:
+  pip-conf:
+    description: 'Contents of pip.conf file'
+    required: true
+runs:
+  using: 'node12'
+  main: 'lib/index.js'
+  post: 'lib/cleanup/index.js'

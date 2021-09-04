@@ -1,0 +1,22 @@
+{
+  "name": "action-pip-config",
+  "version": "1.0.0",
+  "description": "GitHub action to set pip.config",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/innodatalabs/action-pip-config.git"
+  },
+  "author": "Mike Kroutikov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/innodatalabs/action-pip-config/issues"
+  },
+  "homepage": "https://github.com/innodatalabs/action-pip-config#readme",
+  "devDependencies": {
+    "@actions/core": "^1.5.0"
+  }
+}
