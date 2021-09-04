@@ -10,7 +10,7 @@ jobs:
 
       - uses: ./
         with:
-          pip-conf: \
+          pip-conf: |
             Hello, world!
 
       - name: check it up
