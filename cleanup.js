@@ -6,9 +6,9 @@ const os = require('os');
 
 const PIP_CONFIG_LOCATION = (() => {
     if (process.platform === 'win32') {
-        return path.join(homedir, 'AppData', 'Roaming', 'pip', 'pip.ini')
+        return path.join(os.homedir(), 'AppData', 'Roaming', 'pip', 'pip.ini')
     } else {
-        return path.join(homedir, '.config', 'pip', 'pip.conf');
+        return path.join(os.homedir(), '.config', 'pip', 'pip.conf');
     }
 })();
 
