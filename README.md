@@ -13,7 +13,7 @@ steps:
 
   - uses: innodatalabs/action-pip-conf@1.0.0
     with:
-        pip-conf: ${{ secrets.pip-conf }}
+        pip-conf: ${{ secrets.PIP_CONF }}
 
   - name: Install private package
     run: pip install my-private-package
